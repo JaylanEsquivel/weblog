@@ -1,0 +1,97 @@
+html, body, #app {
+    min-height: 100%;
+}
+
+body {
+    background: #000 url(../img/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background: #fff;
+    padding: 20px 20px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    max-width: 95%;
+    width: 450px;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.login_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login_box input {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    height: 40px;
+    padding: 0 0 0 10px;
+    border-radius: 3px;
+}
+
+.login_box button {
+    cursor: pointer;
+    background: linear-gradient(145deg, #2196F3, #3F51B5);
+    border: none;
+    padding: 13px;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content h1,.login_box label {
+    text-transform: uppercase;
+    color: #444;
+}
+
+.login_box label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.alerta {
+    background: #dc3545;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+}
+
+#ic_close {
+    position: absolute;
+    right: 10px;
+    top: 23%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.d1 {
+    display: none;
+}
+
+.d2 {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .content {
+        margin-top: 10%;
+    }
+}

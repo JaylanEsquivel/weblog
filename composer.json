@@ -1,0 +1,20 @@
+{
+	"name": "Base WebAdmin",
+	"description": "",
+	"authors": [
+		{
+			"name": "Paulo Henrique do Nascimento Matos",
+			"email": "magocaosbr1@gmail.com"
+		},
+		{
+			"name": "Jaylan Esquivel Pereira Santos",
+			"email": "jaylan1997@hotmail.com.br"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"App\\": "backend/app/"
+		}
+	}
+}
